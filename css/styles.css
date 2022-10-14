@@ -318,11 +318,37 @@ body, html {
 }
 
 /* line 4, ../sass/partials/_modules.scss */
+.navbar-logo {
+  height: 40px;
+}
+
+/* line 9, ../sass/partials/_modules.scss */
 .privacy-s1 {
   background-position-x: right !important;
 }
 
-/* line 10, ../sass/partials/_modules.scss */
+/* line 14, ../sass/partials/_modules.scss */
 .text-shadow {
   text-shadow: 1px 1px 2px #333;
+}
+
+/* line 18, ../sass/partials/_modules.scss */
+header {
+  z-index: 10;
+}
+
+/* line 21, ../sass/partials/_modules.scss */
+textarea {
+  resize: none;
+}
+
+@media all and (max-width: 767px) {
+  /* line 26, ../sass/partials/_modules.scss */
+  .navbar-nav {
+    backdrop-filter: blur(5px);
+    background-color: #fff;
+    border: 1px solid #999;
+    opacity: 0.9;
+    padding: 10px;
+  }
 }
