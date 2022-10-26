@@ -1,5 +1,39 @@
 @include aoa-bg-series($img__classes,$img__aoa,0,"center","cover","scroll");
-
+@media all and (max-width:991px), all and (orientation:portrait){
+    @include aoa-bg-series($img__classes--v,$img__aoa--v,0,"center","cover","scroll");
+    .about{
+        &-s1,&-s2{
+            background-color: #ccc!important;
+            background-blend-mode: overlay;
+        }
+    }
+    .contact{
+        &-s2{
+            background-position-y: top!important;
+        }
+    }
+}
+.bg{
+    &-brown{
+        background-color: $color__brown;
+    }
+    &-footer{
+        @include set-background($img__footer);
+    }
+}
+.border{
+    &-brown{
+        border-color: $color__brown!important;
+    }
+}
+.contact{
+    &-s1{
+        background-position-y: bottom!important;
+    }
+    &-s2{
+        background-position-y: top!important;
+    }
+}
 .navbar{
     &-logo{
         height: $logo__height;
@@ -11,9 +45,16 @@
     }
 }
 .text{
+    &-brown{
+        color: $color__brown;
+    }
     &-shadow{
         text-shadow: $text__shadow;
     }
+}
+h1,h2,h3,h4,h5,h6,.nav-link{
+    font-family: "FugazOne";
+    letter-spacing: 2px;
 }
 header{
     z-index: 10;

@@ -1,15 +1,67 @@
 $prefix: "../";
+$color__brown: #c39e81;
 $footer-height: 33px;
+$img__about: 
+    $prefix+"img/about/about-s1.jpg",
+    $prefix+"img/about/about-s2.jpg";
+$img__about--v: 
+    $prefix+"img/about/about-s1v.jpg",
+    $prefix+"img/about/about-s2v.jpg";
+$img__basket: $prefix+"img/basket/basket-s1.jpg";
+$img__basket--v: $prefix+"img/basket/basket-s1v.jpg";
 $img__comingsoon: $prefix+"img/comingsoon.jpg";
+$img__contact: 
+    $prefix+"img/contact/contact-s1.jpg",
+    $prefix+"img/contact/contact-s2.jpg";
+$img__contact--v: 
+    $prefix+"img/contact/contact-s1.jpg",
+    $prefix+"img/contact/contact-s2v.jpg";
 $img__error: $prefix+"img/error.jpg";
+$img__footer: $prefix+"img/footer.jpg";
+$img__index: $prefix+"img/index/index-s1.jpg";
+$img__index--v: $prefix+"img/index/index-s1v.jpg";
+$img__offer: 
+    $prefix+"img/offer/offer-s1.jpg",
+    $prefix+"img/offer/offer-s2.jpg";
+$img__offer--v: 
+    $prefix+"img/offer/offer-s1.jpg",
+    $prefix+"img/offer/offer-s2v.jpg";
 $img__privacy: $prefix+"img/privacy.jpg";
+$img__workshops: $prefix+"img/workshops/workshops-s1.jpg";
+$img__workshops--v: $prefix+"img/workshops/workshops-s1v.jpg";
 $img__aoa:
+    $img__about,
+    $img__basket,
     $img__comingsoon,
+    $img__contact,
     $img__error,
-    $img__privacy;
+    $img__index,
+    $img__offer,
+    $img__privacy,
+    $img__workshops;
+$img__aoa--v:
+    $img__about--v,
+    $img__basket--v,
+    $img__contact--v,
+    $img__index--v,
+    $img__offer--v,
+    $img__workshops--v;
 $img__classes:
+    "about",
+    "basket",
     "comingsoon",
+    "contact",
     "error",
-    "privacy";
+    "index",
+    "offer",
+    "privacy",
+    "workshops";
+$img__classes--v:
+    "about",
+    "basket",
+    "contact",
+    "index",
+    "offer",
+    "workshops";
 $logo__height: 40px;
 $text__shadow: 1px 1px 2px #333;

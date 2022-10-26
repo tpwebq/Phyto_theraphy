@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "FugazOne";
+  src: url("../fonts/FugazOne-Regular.ttf");
+}
 /* line 2, ../sass/partials/_minh.scss */
 .minh-auto {
   min-height: auto;
@@ -291,9 +295,54 @@ body, html {
 }
 
 /* line 31, ../sass/partials/_mixins.scss */
+.about-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/about/about-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.about-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/about/about-s2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.basket-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/basket/basket-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
 .comingsoon-s1 {
   background-attachment: scroll;
   background-image: url(../img/comingsoon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.contact-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.contact-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact-s2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -309,6 +358,33 @@ body, html {
 }
 
 /* line 31, ../sass/partials/_mixins.scss */
+.index-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/index/index-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.offer-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/offer/offer-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.offer-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/offer/offer-s2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
 .privacy-s1 {
   background-attachment: scroll;
   background-image: url(../img/privacy.jpg);
@@ -317,33 +393,172 @@ body, html {
   background-size: cover;
 }
 
-/* line 4, ../sass/partials/_modules.scss */
+/* line 31, ../sass/partials/_mixins.scss */
+.workshops-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/workshops/workshops-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media all and (max-width: 991px), all and (orientation: portrait) {
+  /* line 31, ../sass/partials/_mixins.scss */
+  .about-s1 {
+    background-attachment: scroll;
+    background-image: url(../img/about/about-s1v.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* line 31, ../sass/partials/_mixins.scss */
+  .about-s2 {
+    background-attachment: scroll;
+    background-image: url(../img/about/about-s2v.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* line 31, ../sass/partials/_mixins.scss */
+  .basket-s1 {
+    background-attachment: scroll;
+    background-image: url(../img/basket/basket-s1v.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* line 31, ../sass/partials/_mixins.scss */
+  .contact-s1 {
+    background-attachment: scroll;
+    background-image: url(../img/contact/contact-s1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* line 31, ../sass/partials/_mixins.scss */
+  .contact-s2 {
+    background-attachment: scroll;
+    background-image: url(../img/contact/contact-s2v.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* line 31, ../sass/partials/_mixins.scss */
+  .index-s1 {
+    background-attachment: scroll;
+    background-image: url(../img/index/index-s1v.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* line 31, ../sass/partials/_mixins.scss */
+  .offer-s1 {
+    background-attachment: scroll;
+    background-image: url(../img/offer/offer-s1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* line 31, ../sass/partials/_mixins.scss */
+  .offer-s2 {
+    background-attachment: scroll;
+    background-image: url(../img/offer/offer-s2v.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* line 31, ../sass/partials/_mixins.scss */
+  .workshops-s1 {
+    background-attachment: scroll;
+    background-image: url(../img/workshops/workshops-s1v.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* line 5, ../sass/partials/_modules.scss */
+  .about-s1, .about-s2 {
+    background-color: #ccc !important;
+    background-blend-mode: overlay;
+  }
+
+  /* line 11, ../sass/partials/_modules.scss */
+  .contact-s2 {
+    background-position-y: top !important;
+  }
+}
+/* line 17, ../sass/partials/_modules.scss */
+.bg-brown {
+  background-color: #c39e81;
+}
+/* line 20, ../sass/partials/_modules.scss */
+.bg-footer {
+  background-attachment: fixed;
+  background-image: url(../img/footer.jpg);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 25, ../sass/partials/_modules.scss */
+.border-brown {
+  border-color: #c39e81 !important;
+}
+
+/* line 30, ../sass/partials/_modules.scss */
+.contact-s1 {
+  background-position-y: bottom !important;
+}
+/* line 33, ../sass/partials/_modules.scss */
+.contact-s2 {
+  background-position-y: top !important;
+}
+
+/* line 38, ../sass/partials/_modules.scss */
 .navbar-logo {
   height: 40px;
 }
 
-/* line 9, ../sass/partials/_modules.scss */
+/* line 43, ../sass/partials/_modules.scss */
 .privacy-s1 {
   background-position-x: right !important;
 }
 
-/* line 14, ../sass/partials/_modules.scss */
+/* line 48, ../sass/partials/_modules.scss */
+.text-brown {
+  color: #c39e81;
+}
+/* line 51, ../sass/partials/_modules.scss */
 .text-shadow {
   text-shadow: 1px 1px 2px #333;
 }
 
-/* line 18, ../sass/partials/_modules.scss */
+/* line 55, ../sass/partials/_modules.scss */
+h1, h2, h3, h4, h5, h6, .nav-link {
+  font-family: "FugazOne";
+  letter-spacing: 2px;
+}
+
+/* line 59, ../sass/partials/_modules.scss */
 header {
   z-index: 10;
 }
 
-/* line 21, ../sass/partials/_modules.scss */
+/* line 62, ../sass/partials/_modules.scss */
 textarea {
   resize: none;
 }
 
 @media all and (max-width: 767px) {
-  /* line 26, ../sass/partials/_modules.scss */
+  /* line 67, ../sass/partials/_modules.scss */
   .navbar-nav {
     backdrop-filter: blur(5px);
     background-color: #fff;
